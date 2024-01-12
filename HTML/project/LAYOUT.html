@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+                table {
+                        width: 40%;
+                }
+
+                table, th, td {
+                        border: 2px solid black;
+                        border-collapse: collapse;
+                        padding: 0px;
+                }
+                header{
+                    border-collapse: collapse ;
+                    height: 25px;   
+                }
+                .Path
+                {
+                    border: 2px solid black;
+                    height: 25px;
+                }
+                .Docktop{
+                    border: 2px solid black;
+                    height: 25px;
+                }
+                .Content{
+                    border: 2px solid black;
+                    height: 250px;
+                    width: 80%;
+                }
+                .Bockright
+                {
+                    border: 2px solid black;
+                    height: 50px; 
+                }
+                .footer
+                {
+                    border: 2px solid black;
+                    height: 25px;
+                }
+                #Content
+                {
+                    border: 2px solid black;
+                    height: 100px;
+                }
+                .Content1
+                {
+                    border: 2px solid black;
+                    height: 100px;               
+                }
+                .Content2
+                {
+                    border: 2px solid black;
+                    height: 45%;
+                }
+                .table-1
+                {
+                    height:35px;
+                }
+    </style>
+<body>
+    <h1>LAYOUT-1</h1>
+    <table cellpadding="5px">
+        <tr>
+            <th colspan="4">
+                    <header>
+                            Header
+                    </header>
+            </th>
+        </tr>
+        <tr>
+            <td colspan="4" class="Path" align="center">Path</td>
+        </tr>
+        <tr>
+            <td colspan="4" class="Docktop" align="center">DockTop</td>
+        </tr>
+        <tr>
+            <td colspan="2  " class="Content" align="center">Content</td>
+            <td colspan="3" class="Bockright" align="center">Dockright</td>
+        </tr>
+        <tr>
+            <td colspan="5" class="footer" align="center">
+                <footer>
+                    Footer
+                </footer>
+            </td>
+        </tr>
+    </table><br><br>
+
+    <h1>LAYOUT-2</h1>
+        <table cellpadding="10px">
+            <tr>
+                <th colspan="4">
+                        <header>
+                                Header
+                        </header>
+                </th>
+            </tr>
+            <tr>
+                <td colspan="4" class="Path" align="center">Path</td>
+            </tr>
+            <tr id="Content">
+                <td align="center" >Content</td>
+                <td align="center">Content</td>
+                <td align="center">Content</td>
+            </tr>
+            <tr>
+                <td colspan="5" class="footer" align="center">
+                    <footer>
+                        Footer
+                    </footer>
+                </td>
+            </tr>
+    </table><br><br>
+
+    <h1>LAYOUT-3</h1>
+    <table cellpadding="10px">
+        <tr>
+            <th colspan="4">
+                    <header>
+                            Header
+                    </header>
+            </th>
+        </tr>
+        <tr>
+            <td colspan="4" class="Path" align="center">Path</td>
+        </tr>
+        <tr>
+            <td colspan="4" class="Docktop" align="center">DockTop</td>
+        </tr>
+        <tr>
+            <td align="center" class="Content1">Content</td>
+        </tr>
+        <tr>
+            <td align="center" class="Content1">Content</td>
+        </tr>
+        <tr>
+            <td colspan="5" class="footer" align="center">
+                <footer>
+                    Footer
+                </footer>
+            </td>
+        </tr>
+        </table><br><br>
+
+    <h1>LAYOUT-4</h1>
+    <table cellpadding="10px">
+        <tr>
+            <th colspan="4" style="height: 50px;">
+                    <header>
+                            Header
+                    </header>
+            </th>   
+        </tr>
+        <tr>
+            <td colspan="4" class="Path" align="center" style="height: 50px;">Path</td>
+        </tr>
+        <tr>
+            <td align="center" class="Content2" style="height: 90px;" >Content</td>
+            <td align="center" class="Content2">Content</td>
+        </tr>
+        <tr>
+            <td align="center" class="Content2" style="height: 90px;">Content</td>
+            <td align="center" class="Content2">Content</td>
+        </tr>
+    </table><br><br>
+</body>
+</html>
