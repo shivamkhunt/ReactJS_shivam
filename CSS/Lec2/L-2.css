@@ -3,3 +3,10 @@
 /* body{
   background-color: purple;
 } */
+
+
+
+h1:nth-child(1){
+  background-color: red;
+}
+

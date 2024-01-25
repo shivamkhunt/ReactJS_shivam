@@ -6,7 +6,9 @@
 
 /* css import */
 
-
+h1{
+    background-color: aquamarine;
+}
 
 /* css resetting properties value */
 /* p{
@@ -64,6 +66,7 @@
     background-color: yellow;
     width: 200px;
 } */
+ 
 /* .box-1{
 }
 .box-2{

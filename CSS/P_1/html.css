@@ -1,0 +1,64 @@
+a:first-child{
+    background-color: yellow;
+    color:red;
+}
+
+a:nth-child(4)
+{
+    background-color: yellow;
+    color: red;
+}
+
+input:last-of-type
+{
+    background-color: yellow;
+    color: red;
+}
+
+:where(.heading)
+{
+    background-color: yellow;
+    color :red;
+} 
+
+:where(.head)
+{
+    background-color: yellow;
+    color : red;
+}
+
+:where(.h1)
+{
+    background-color: yellow;
+    color : red;
+}
+
+h1:only-of-type
+{
+    background-color: yellow;
+    color : red;
+}
+
+:nth-last-of-type(11)
+{
+    background-color: yellow;
+    color : red;
+}
+
+:nth-last-of-type(14)
+{
+    background-color: yellow;
+    color : red;
+}
+
+span p:last-of-type
+{
+    background-color: yellow;
+    color : red;
+}
+
+div:nth-of-type(2) h1:nth-child(2)
+{
+    background-color: yellow;
+    color : red;
+}
